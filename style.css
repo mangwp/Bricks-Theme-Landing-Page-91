@@ -1,0 +1,102 @@
+/*
+ Theme Name:   Bricks Child Theme
+ Theme URI:    https://bricksbuilder.io/
+ Description:  Use this child theme to extend Bricks.
+ Author:       Bricks
+ Author URI:   https://bricksbuilder.io/
+ Template:     bricks
+ Version:      1.1
+ Text Domain:  bricks
+*/
+
+:root {
+    --font-size-12: 0.75rem;
+    --font-size-14: 0.875rem;
+    --font-size-16: 1rem;
+    --font-size-18: clamp(0.875rem, 0.75rem + 0.625vw, 1.125rem);
+    --font-size-20: 1.25rem;
+    --font-size-24: 1.5rem;
+    --font-size-30: 1.875rem;
+    --font-size-36: clamp(1.875rem, 1.6875rem + 0.9375vw, 2.25rem);
+    --font-size-48: 3rem;
+    --font-size-64: clamp(2rem, 1rem + 5vw, 4rem);
+    --font-size-112: 5rem;
+    --space-size-9:0.5625rem;
+    --space-size-12:0.75rem;
+    --space-size-18:1.125rem;
+    --space-size-24: 1.5rem;
+    --space-size-27:1.6875rem;
+    --space-size-30:1.875rem;
+    --space-size-36:2.25rem;
+    --space-size-48:3rem;
+    --space-size-64:4rem;
+    --border-radius-9:0.5625rem;
+    --border-radius-14:0.875rem;
+    --border-radius-100:100%;
+    --font-weight-500: 500;
+    --size-100: 100%;
+    --aspect-square: 1 / 1;
+    --width-700px : 700px;
+    --width-400px: 400px;
+    --width-100px: 100px;
+    --w-800px: 800px;
+    --h-100: 100%;
+    --n-col-2: 2;
+  }
+  .list-v1 ul {
+    list-style: none;
+}
+.list-v1 ul li
+{
+  display: flex;
+  align-items: center;
+}
+.list-v1 ul li:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: var(--bricks-color-fxvude);
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    outline: 4px solid var(--bricks-color-sdmfoj);
+}
+.section-why-right {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: var(--space-size-18); 
+  grid-template-areas: 
+    "grid-1-2 grid-2-1"
+    "grid-1-2 grid-2-2"; 
+}
+.section-why-right>div:nth-child(1){ grid-area: grid-1-2; }
+.section-why-right>div:nth-child(2) { grid-area: grid-2-1; }
+.section-why-right>div::nth-child(3){ grid-area: grid-2-2; }
+.aspect-square {
+  aspect-ratio: var(--aspect-square);
+}
+.section-achievement b {
+  color:var(--bricks-color-fxvude);
+}
+.section-achievement .circle-people .image {
+  aspect-ratio: var(--aspect-square);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-achievement .circle-people li:nth-child(n+2) {
+  margin-left:-8px;
+}
+.section-community .grid-two-two {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit,minmax(clamp(100%/(var(--n-col-2) + 1) + 0.1%,(var(--w-800px) - 100vw)*1000,100%),1fr)); 
+  gap: var(--space-size-18); 
+}
+.section-community {
+background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+.section-team .card:hover{
+  box-shadow: 0px var(--space-size-18) var(--space-size-36) 0px rgba(116, 115, 128, 0.1);
+}
+.section-team .card {
+margin-bottom : var(--space-size-36);
+}
