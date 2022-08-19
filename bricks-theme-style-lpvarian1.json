@@ -1,0 +1,190 @@
+{
+  "label": "LPvarian1",
+  "settings": {
+    "_custom": true,
+    "conditions": {
+      "conditions": [
+        {
+          "id": "kxjzef",
+          "main": "any"
+        }
+      ]
+    },
+    "container": {
+      "widthMax": "1171px",
+      "padding": {
+        "right": 1,
+        "left": 1,
+        "unit": {
+          "right": "rem",
+          "left": "rem"
+        }
+      },
+      "width": "100%"
+    },
+    "typography": {
+      "typographyHtml": "100%",
+      "typographyBody": {
+        "font-family": "Inter",
+        "font-size": "1rem",
+        "font-weight": "400"
+      },
+      "typographyHeadingH1": {
+        "color": {
+          "hex": "#0a093d",
+          "id": "svkcnq",
+          "name": "Blue-03"
+        },
+        "font-size": "var(--font-size-64)",
+        "font-family": "Inter",
+        "font-weight": "700"
+      },
+      "typographyHeadingH1:mobile_portrait": {
+        "font-size": "var(--font-size-64)"
+      },
+      "typographyHeadings": {
+        "line-height": "1.3"
+      },
+      "typographyHeadingH2": {
+        "font-size": "var(--font-size-36)",
+        "color": {
+          "hex": "#0a093d",
+          "id": "svkcnq",
+          "name": "Blue-03"
+        },
+        "font-weight": "700"
+      }
+    },
+    "colors": {
+      "colorPrimary": {
+        "hex": "#0a093d",
+        "id": "svkcnq",
+        "name": "Blue-03"
+      },
+      "colorSecondary": {
+        "hex": "#217bf4",
+        "id": "fxvude",
+        "name": "Blue-01"
+      }
+    },
+    "button": {
+      "primaryBackground": {
+        "hex": "#217bf4",
+        "id": "fxvude",
+        "name": "Blue-01"
+      },
+      "typography": {
+        "font-size": "var(--font-size-14)",
+        "color": {
+          "hex": "#ffffff",
+          "id": "llhyaj",
+          "name": "White-01"
+        }
+      },
+      "sizeSmPadding": {
+        "right": "",
+        "unit": {
+          "right": "var(--space-size-27)",
+          "left": "var(--space-size-27)",
+          "top": "var( --space-size-9)",
+          "bottom": "var( --space-size-9)"
+        },
+        "left": "",
+        "top": "",
+        "bottom": ""
+      },
+      "sizeSmTypography": {
+        "font-size": " var(--font-size-12)",
+        "font-weight": "400"
+      },
+      "secondaryBackground": {
+        "hex": "#0a093d",
+        "id": "svkcnq",
+        "name": "Blue-03"
+      },
+      "border": {
+        "radius": {
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "unit": {
+            "top": "var(--border-radius-9)",
+            "right": "var(--border-radius-9)",
+            "bottom": "var(--border-radius-9)",
+            "left": "var(--border-radius-9)"
+          }
+        },
+        "width": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        },
+        "style": "solid",
+        "color": {
+          "hex": "#217bf4",
+          "id": "fxvude",
+          "name": "Blue-01"
+        }
+      },
+      "primaryBorder": {
+        "radius": {
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "unit": {
+            "top": "var( --border-radius-14)",
+            "right": "var( --border-radius-14)",
+            "bottom": "var( --border-radius-14)",
+            "left": "var( --border-radius-14)"
+          }
+        }
+      },
+      "sizeMdPadding": {
+        "top": "",
+        "unit": {
+          "top": "var(--space-size-12)",
+          "bottom": "var(--space-size-12)",
+          "right": "var(--space-size-36)",
+          "left": "var(--space-size-36)"
+        },
+        "bottom": "",
+        "right": "",
+        "left": ""
+      },
+      "lightTypography": {
+        "color": {
+          "hex": "#4a4a56",
+          "id": "zcljre",
+          "name": "Color #11"
+        },
+        "font-weight": "500",
+        "font-size": "var(--font-size-16)"
+      }
+    },
+    "text": {
+      "typography": {
+        "color": {
+          "hex": "#656464",
+          "id": "ydbrbs",
+          "name": "Grey-01"
+        },
+        "font-size": "var( --font-size-16)",
+        "font-weight": "400"
+      }
+    },
+    "section": {
+      "padding": {
+        "top": "",
+        "unit": {
+          "top": "var(--space-size-64)",
+          "bottom": "var(--space-size-64)"
+        },
+        "bottom": ""
+      }
+    }
+  },
+  "id": "lpvarian1"
+}
