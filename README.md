@@ -1,4 +1,4 @@
-# Bricks-Theme-Landing-Page-91
+# Bricks Theme Landing Page 01
 Theme File for Bricks Builder
 
 Made based https://www.figma.com/file/8DJY5djRIIrKyLXWk6NyYW/Free-Landing-Page-Design-(Community)?node-id=5%3A123 as reference. 
