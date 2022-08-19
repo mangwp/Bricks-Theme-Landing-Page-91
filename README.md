@@ -5,4 +5,4 @@ Made based https://www.figma.com/file/8DJY5djRIIrKyLXWk6NyYW/Free-Landing-Page-D
 
 Make sure to credit the figma author if you decided to use this template in your project.
 
-Visit my youtube for simple bricks builder snippetsand tutorial for beginner https://www.youtube.com/channel/UCTbvvhNu7RZWxmYPswra_QA
+Visit my youtube to browse simple bricks builder snippets and various tutorial for beginner https://www.youtube.com/channel/UCTbvvhNu7RZWxmYPswra_QA
